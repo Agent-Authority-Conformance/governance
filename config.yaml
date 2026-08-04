@@ -1,0 +1,22 @@
+teams:
+  - name: aps-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - aeoess
+  - name: lf-staff
+    maintainers:
+      - jwagantall
+      - ryjones
+    members:
+      - thelinuxfoundation
+
+repositories:
+  - name: .github
+    teams:
+      aps-maintainers: maintain
+    visibility: public
+  - name: governance
+    teams:
+      aps-maintainers: maintain
+    visibility: public
