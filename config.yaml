@@ -15,8 +15,14 @@ repositories:
   - name: .github
     teams:
       aps-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: aps-conformance-suite
+    teams:
+      aps-maintainers: maintain
     visibility: public
   - name: governance
     teams:
       aps-maintainers: maintain
+      lf-staff: maintain
     visibility: public
